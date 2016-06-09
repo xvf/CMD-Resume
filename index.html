@@ -18,13 +18,8 @@
 </head>
 <body>
     <script>
-        $(document).ready(function($) {
-            // Call CMD Resume intializer
-            initCMDResume();
-
-            $('body').terminal(function(command, term) {
-                term.echo(resume.commandLineParse(command));
-            }, resume.settings);
+        $(document).ready(function() {
+            CMDResume.init('body');      
         });
     </script>
 </body>
