@@ -1,67 +1,52 @@
 // Splash
 var splash = ""
-+ "                 _________________\n"
-+ "                /                /|\n"
-+ "               /                / |\n"
-+ "              /________________/ /|\n"
-+ "           ###|      ____      |//|\n"
-+ "          #   |     /   /|     |/.|\n"
-+ "         #  __|___ /   /.|     |  |_______________\n"
-+ "        #  /      /   //||     |  /              /|                  ___\n"
-+ "       #  /      /___// ||     | /              / |                 / \\ \\\n"
-+ "       # /______/!   || ||_____|/              /  |                /   \\ \\\n"
-+ "       #| . . .  !   || ||                    /  _________________/     \\ \\\n"
-+ "       #|  . .   !   || //      ________     /  /\\________________  {   /  }\n"
-+ "       /|   .    !   ||//~~~~~~/   0000/    /  / / ______________  {   /  /\n"
-+ "      / |        !   |'/      /9  0000/    /  / / /             / {   /  /\n"
-+ "     / #\\________!___|/      /9  0000/    /  / / /_____________/___  /  /\n"
-+ "    / #     /_____\\/        /9  0000/    /  / / /_  /\\_____________\\/  /\n"
-+ "   / #                      ``^^^^^^    /   \\ \\ . ./ / ____________   /\n"
-+ "  +=#==================================/     \\ \\ ./ / /.  .  .  \\ /  /\n"
-+ "  |#                                   |      \\ \\/ / /___________/  /\n"
-+ "  #                                    |_______\\__/________________/\n"
-+ "  |                                    |               |  |  / /       \n"
-+ "  |                                    |               |  | / /       \n"
-+ "  |                                    |       ________|  |/ /________       \n"
-+ "  |                                    |      /_______/    \\_________/\\       \n"
-+ "  |                                    |     /        /  /           \\ )       \n"
-+ "  |                                    |    /OO^^^^^^/  / /^^^^^^^^^OO\\)       \n"
-+ "  |                                    |            /  / /        \n"
-+ "  |                                    |           /  / /\n"
-+ "  |                                    |          /___\\/\n"
-+ "  |hectoras                            |           oo\n"
-+ "  |____________________________________|\n";
++ '          ,----------------,                 ,---------,\n'
++ '        ,-----------------------,          ,"        ,"|\n'
++ '      ,"                      ,"|        ,"        ,"  |\n'
++ '     +-----------------------+  |      ,"        ,"    |\n'
++ '     |  .-----------------.  |  |     +---------+      |\n'
++ '     |  |                 |  |  |     | -==----\'|      |\n'
++ '     |  |  I LOVE DOS!    |  |  |     |         |      |\n'
++ '     |  |  Bad command or |  |  |/----|`---=    |      |\n'
++ '     |  |  C:\>_          |  |  |    /|==== ooo |      ;\n'
++ '     |  |                 |  |  |  // |(((( [33]|    ,"\n'
++ '     |  `-----------------\'  |," .;\'  | |((((   |  ,"\n'
++ '     +-----------------------+  ;;  | |         |,"\n'
++ '        /_)______________(_/  //\'   | +---------+\n'
++ '   ___________________________/___  `,\n'
++ '  /  oooooooooooooooo  .o.  oooo /,   \,"-----------\n'
++ ' / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"\n'
++ '/_==__==========__==_ooo__ooo=_/\'   /___________,"\n'
++ '`-----------------------------\n'
 
 var hasSplash = true;
 
 // Details
-var name = "John Doe";
-var loc = "Timbuktu";
-var lookingfor = "Raking in the money";
-var pdfLink = "http://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9";
+var name = "Abhishek Srivastava";
+var loc = "New York";
+var lookingfor = "software.web.devops.people";
+var pdfLink = "http://shek.co/AS-Resume_Site.pdf";
 
 // Settings
-var showForks = false; // Shows forks of repositories on Github
+var showForks = true; // Shows forks of repositories on Github
 
 // Github and Bitbucket accounts
-var githubUsername = "example";
-var bitbucketUsername = "example";
+var githubUsername = "xvf";
 var githubURL = "https://github.com/" + githubUsername;
-var bitbucketURL = "https://bitbucket.org/" + bitbucketUsername;
 
 // If left blank e.g. url = "" then it won't appear
-var websiteURL = "http://www.example.com/";
+var websiteURL = "http://abhi.shek.co";
 var blogURL = "";
 var portfolioURL = "";
-var twitterURL = "https://twitter.com/";
-var facebookURL = "https://facebook.com/";
-var skypeAccount = "test";
+var twitterURL = "https://twitter.com/thugops";
+var facebookURL = "https://facebook.com/abhi.sriv";
+var skypeAccount = "abhisriv87";
 var socialMedia = [["Github", githubURL], ["Bitbucket", bitbucketURL], ["Website", websiteURL], 
 	["Blog", blogURL], ["Portfolio", portfolioURL], ["Twitter", twitterURL], ["Facebook", facebookURL],
 	["Skype", skypeAccount]];
 
 // Education list
-var education = [["South Hamptom Institute of Technology", "Master of Computers", "Graduate July, 2014"], ["School of Hard Knocks", "Bachelor of Life", "Graduate November, 2008"]];
+var education = [["Georgia Institute of Technology", "Master in Computer Science", "Graduate December, 2011"], ["SRM Institute of Science & Technology", "Bachelor of Technology", "Graduate May, 2009"]];
 
 // Employment list
 var employment = [["Prestige Worldwide", "Beat Lab Technician", "November 2013 - Present"]];
